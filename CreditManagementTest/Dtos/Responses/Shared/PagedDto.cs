@@ -1,3 +1,4 @@
+using BlogDotNet.Models;
 using CreditManagementTest.Models;
 
 namespace CreditManagementTest.Dtos.Responses.Shared

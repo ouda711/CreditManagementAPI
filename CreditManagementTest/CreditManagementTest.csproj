@@ -6,6 +6,7 @@
 
     <ItemGroup>
         <PackageReference Include="AspNetCore.RouteAnalyzer" Version="0.5.3" />
+        <PackageReference Include="Bogus" Version="34.0.1" />
         <PackageReference Include="EntityFramework" Version="6.4.4" />
         <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.0.0" />
         <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.3" />
@@ -19,6 +20,10 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.0.0" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.16.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Controllers" />
     </ItemGroup>
 
 </Project>

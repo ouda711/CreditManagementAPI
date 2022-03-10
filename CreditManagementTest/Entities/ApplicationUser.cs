@@ -12,7 +12,7 @@ namespace CreditManagementTest.Entities
 
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        // public ICollection<Address> Addresses { get; set; } = new List<Address>();
+        public ICollection<Address> Addresses { get; set; } = new List<Address>();
 
         /// <summary>
         /// Navigation property for the roles this user belongs to.
@@ -32,6 +32,10 @@ namespace CreditManagementTest.Entities
         /// </summary>
         public virtual ICollection<IdentityUserLogin<long>> Logins { get; } = new List<IdentityUserLogin<long>>();
 
-        
+        public virtual ICollection<Order> Orders { get; set; }
+
+        public virtual ICollection<Comment> Comments { get; set; }
+
+        public ICollection<Rating> Ratings { get; set; }
     }
 }
